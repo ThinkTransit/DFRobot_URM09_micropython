@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*
 '''!
-  @file DFRobot_URM09.py
+  @file DFRobot_URM09_mp.py
   @brief Define the basic structure of DFRobot_URM09 class, the implementation of basic method
   @copyright Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
   @license The MIT License (MIT)
   @author ZhixinLiu(zhixin.liu@dfrobot.com)
-  @version V1.1
-  @date 2021-9-30
-  @url https://github.com/DFRobot/DFRobot_URM09
+  @version V1.2
+  @date 2022-12-01
+  @url https://github.com/ThinkTransit/DFRobot_URM09_micropython
 '''
-import serial
 import time
-import smbus
 
 class DFRobot_URM09(object):
 
