@@ -38,7 +38,7 @@ class DFRobot_URM09(object):
   REG_NUM         = 9
   txbuf      = [0]
   def __init__(self, bus):
-    self.i2cbus = smbus.SMBus(bus)
+    self.i2cbus = bus
 
   def set_mode_range(self, range, mode):
     '''!
